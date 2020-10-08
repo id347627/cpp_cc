@@ -152,7 +152,13 @@ public:
 class SmartAIPlayer : public Player {
 public:
     SmartAIPlayer(CellType c):Player{SmartAI, c}{ }
-    int makeMove(const Board&) { throw; return 0;}
+    int makeMove(const Board& b) {
+        int move;
+        do {
+            move = rand() % 10;
+        } while (!b.validMove(move));
+        return move;
+    }
 };
 class RandomAIPlayer : public Player {
     public:
@@ -235,10 +241,11 @@ int main()
     srand (time(NULL));
 
     do{
-    g = new Game();
-    g->startGame();
-    cout << "Game is over. Choose what to do next (0=end 1=Start new game): " ;
-    cin >> choose;
+        g = new Game();
+        g->startGame();
+        cout << "Game is over. Choose what to do next (0=end 1=Start new game): " ;
+        cin >> choose;
     } while(choose);
+
     return 0;
 }
