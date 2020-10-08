@@ -12,11 +12,11 @@ add_subdirectory(googletest)
 enable_testing()
 
 set( Sources
-   Rational.cpp
+   rational.cpp
 )
 
 set( Headers
-   Rational.hpp
+   rational.hpp
 )
 
 add_library(${PROJECT_NAME} STATIC ${Sources} ${Headers})

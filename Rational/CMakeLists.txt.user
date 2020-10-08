@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.0, 2020-10-01T09:59:30. -->
+<!-- Written by QtCreator 4.13.0, 2020-10-07T18:51:28. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -64,7 +64,19 @@
     <value type="bool" key="AutoTest.Framework.QtQuickTest">true</value>
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
-   <valuemap type="QVariantMap" key="AutoTest.CheckStates"/>
+   <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Abs">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Add">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Ceil">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Div">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Floor">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Mul">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Output">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Pow">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:RationalTesting">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Reduce">Checked</value>
+    <value type="Qt::CheckState" key="C:/git/cpp_cc/Rational/test/RationalTest.cpp:Sub">Checked</value>
+   </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
    <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey">
